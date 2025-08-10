@@ -1,7 +1,23 @@
 # 📚 Fullstack AGIT AOP - Laravel Library Management
 
 This is a Laravel-based library management system with two types of users: **Librarian** and **Member**.  
-It supports managing categories, books, loans, and users (depending on your role).
+
+**Librarian**
+***Role Access:***
+Categories — Manage book categories.
+Books — Add, update, and remove books.
+Loans — Manage loan transactions for all members.
+Users — Add, update, and remove user accounts.
+***Example User:***
+Email: andi.prasetyo@perpus.com
+Password: password123
+
+**Member**
+***Role Access:***
+Loans — View their own loan history and borrow books.
+***Example User:***
+Email: budi.santoso@member.com
+Password: password123
 
 ---
 
