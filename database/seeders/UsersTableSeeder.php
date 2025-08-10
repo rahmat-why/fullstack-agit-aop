@@ -43,15 +43,6 @@ class UsersTableSeeder extends Seeder
                 'created_at' => now()
             ],
             [
-                'name' => 'Dewi Lestari',
-                'email' => 'dewi.lestari@perpus.com',
-                'password' => Hash::make('password123'),
-                'phone' => '081234567893',
-                'address' => 'Jl. Anggrek No. 4, Yogyakarta',
-                'role' => 'admin',
-                'created_at' => now()
-            ],
-            [
                 'name' => 'Eko Prabowo',
                 'email' => 'eko.prabowo@perpus.com',
                 'password' => Hash::make('password123'),
