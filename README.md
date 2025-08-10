@@ -2,30 +2,14 @@
 
 This is a Laravel-based library management system with two types of users: **Librarian** and **Member**.  
 
-**Librarian**
-***Role Access:***
-Categories — Manage book categories.
-
-Books — Add, update, and remove books.
-
-Loans — Manage loan transactions for all members.
-
-Users — Add, update, and remove user accounts.
-
-***Example User:***
+**Librarian:** Categories, Books, Loans, and Users
 
 Email: andi.prasetyo@perpus.com
 
 Password: password123
 
 
-**Member**
-
-***Role Access:***
-
-Loans — View their own loan history and borrow books.
-
-***Example User:***
+**Member:** Loans
 
 Email: budi.santoso@member.com
 
