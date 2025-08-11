@@ -16,8 +16,8 @@ class UsersTableSeeder extends Seeder
     {
         DB::table('users')->insert([
             [
-                'name' => 'Andi Prasetyo',
-                'email' => 'andi.prasetyo@perpus.com',
+                'name' => 'Rahmat',
+                'email' => 'rahmat@librarian.com',
                 'password' => Hash::make('password123'),
                 'phone' => '081234567890',
                 'address' => 'Jl. Merdeka No. 1, Jakarta',
@@ -25,30 +25,12 @@ class UsersTableSeeder extends Seeder
                 'created_at' => now()
             ],
             [
-                'name' => 'Budi Santoso',
-                'email' => 'budi.santoso@member.com',
+                'name' => 'Yanto',
+                'email' => 'yanto@member.com',
                 'password' => Hash::make('password123'),
                 'phone' => '081234567891',
                 'address' => 'Jl. Mawar No. 2, Bandung',
                 'role' => 'member',
-                'created_at' => now()
-            ],
-            [
-                'name' => 'Citra Dewi',
-                'email' => 'citra.dewi@member.com',
-                'password' => Hash::make('password123'),
-                'phone' => '081234567892',
-                'address' => 'Jl. Melati No. 3, Surabaya',
-                'role' => 'member',
-                'created_at' => now()
-            ],
-            [
-                'name' => 'Eko Prabowo',
-                'email' => 'eko.prabowo@perpus.com',
-                'password' => Hash::make('password123'),
-                'phone' => '081234567894',
-                'address' => 'Jl. Kenanga No. 5, Medan',
-                'role' => 'librarian',
                 'created_at' => now()
             ]
         ]);
